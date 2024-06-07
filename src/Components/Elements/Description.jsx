@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../images/LOGO.svg'
+import img from '../images/self.png'
 
 const Description = () => {
     return (

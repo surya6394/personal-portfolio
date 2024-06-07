@@ -10,7 +10,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        "orgClr": "#FD6F00",
+        "orgClr": "#FD6F00",    
         "textclr1": "#000000"
       }
     },

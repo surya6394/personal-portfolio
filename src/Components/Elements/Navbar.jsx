@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import img from '../images/LOGO.svg'
+import img from '../images/LOGO.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,9 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="text-[#000000]">
-      <div className="container mx-auto px-4 flex justify-between items-center h-16">
-        <div className="text-2xl font-bold">
-        <img src={img} alt="Profile image." width="60%" />
+      <div className="container mx-auto flex justify-between items-center h-16">
+        <div className="flex items-center text-2xl font-bold">
+          <img src={img} alt="Profile image." width="60%" />
         </div>
         <div className="hidden md:flex items-center space-x-10">
           <a href="#home" className="hover:text-gray-400">Home</a>
