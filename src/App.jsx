@@ -9,7 +9,9 @@ function App() {
 
   return (
     <>
-      <Home />
+      <div className='#FFFFFF font-poppins'>
+        <Home />
+      </div>
     </>
   )
 }
