@@ -48,17 +48,7 @@ const Contact = () => {
         <img src={img} alt='Contact' width='100%' height='100%' />
       </div>
       <div className='w-full'>
-        <form
-          name='contact'
-          method='POST'
-          data-netlify='true'
-          data-netlify-honeypot='bot-field'
-          onSubmit={handleSubmit}
-        >
-          {/* Hidden fields for Netlify */}
-          <input type='hidden' name='form-name' value='contact' />
-          <input type='hidden' name='bot-field' />
-
+        <form name='contact' method='POST' netlify onSubmit={handleSubmit}>
           <div className='md:px-16 pt-10 pb-16'>
             <div className='mb-5'>
               <label
