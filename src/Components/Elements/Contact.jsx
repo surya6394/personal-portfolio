@@ -52,12 +52,10 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
         >
           {/* Hidden fields for Netlify */}
           <input type="hidden" name="form-name" value="contact" />
-          <input type="hidden" name="bot-field" />
 
           <div className="md:px-16 pt-10 pb-16">
             <div className="mb-5">
