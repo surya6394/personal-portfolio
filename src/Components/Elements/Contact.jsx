@@ -2,8 +2,8 @@ import { ErrorMessage, Field, Form, Formik } from 'formik'
 import React, { useState } from 'react'
 import * as Yup from 'yup'
 import img from '../images/contact-img.jpg'
-import { FaRegUserCircle } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { FaRegUserCircle } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -12,9 +12,9 @@ const Contact = () => {
     message: ''
   })
 
-const handleSubmit = (value) => {
-  console.log("Form Data is here: ",value)
-}
+  const handleSubmit = value => {
+    console.log('Form Data is here: ', value)
+  }
 
   const validationSchema = Yup.object({
     name: Yup.string()
@@ -37,14 +37,23 @@ const handleSubmit = (value) => {
         </div>
         <div className='w-full'>
           <Formik
-            initialValues={formData} // Use initialFormValues when editing
+            initialValues={formData}
             validationSchema={validationSchema}
             onSubmit={handleSubmit}
           >
             {({ isSubmitting, setFieldValue }) => (
-              <Form name='contactUS' data-netlify="true">
+              <Form
+                name='contactUS'
+                method='POST'
+                data-netlify='true'
+                data-netlify-honeypot='bot-field'
+              >
+                {/* Hidden honeypot field */}
+                <input type='hidden' name='form-name' value='contactUS' />
+                <input type='hidden' name='bot-field' />
+
                 <div className='md:px-16 pt-10 pb-16'>
-                  <div className=''>
+                  <div>
                     <div className='mb-5'>
                       <label
                         htmlFor='name'
@@ -52,7 +61,10 @@ const handleSubmit = (value) => {
                       >
                         Name<span className='text-red-800'>*</span>
                       </label>
-                      <FaRegUserCircle size={22} className='text-gray-300 mt-[14px] ml-2 absolute z-10' />
+                      <FaRegUserCircle
+                        size={22}
+                        className='text-gray-300 mt-[14px] ml-2 absolute z-10'
+                      />
                       <Field
                         type='text'
                         id='name'
@@ -66,6 +78,7 @@ const handleSubmit = (value) => {
                         className='text-red-600 text-sm text-left'
                       />
                     </div>
+
                     <div className='mb-5'>
                       <label
                         htmlFor='email'
@@ -73,9 +86,12 @@ const handleSubmit = (value) => {
                       >
                         Email<span className='text-red-800'>*</span>
                       </label>
-                      <MdEmail size={22} className='text-gray-300 mt-[14px] ml-2 absolute z-10' />
+                      <MdEmail
+                        size={22}
+                        className='text-gray-300 mt-[14px] ml-2 absolute z-10'
+                      />
                       <Field
-                        type='text'
+                        type='email'
                         id='email'
                         name='email'
                         placeholder='name@gmail.com'
@@ -87,6 +103,7 @@ const handleSubmit = (value) => {
                         className='text-red-600 text-sm text-left'
                       />
                     </div>
+
                     <div className='mb-5'>
                       <label
                         htmlFor='message'
@@ -107,16 +124,12 @@ const handleSubmit = (value) => {
                         className='text-red-600 text-sm text-left'
                       />
                     </div>
-                    <div className='flex mt-4 justify-center '>
+
+                    <div className='flex mt-4 justify-center'>
                       <button
                         type='submit'
                         className='px-12 py-2 text-white bg-orgClr w-full rounded-md font-[500] hover:bg-[#eb6c09] focus:outline-none focus:ring focus:ring-indigo-200'
                       >
-                        {/* {isLoading ? (
-                          <FaSpinner className='animate-spin text-3xl' />
-                        ) : (
-                          'Submit'
-                        )} */}
                         Submit
                       </button>
                     </div>
