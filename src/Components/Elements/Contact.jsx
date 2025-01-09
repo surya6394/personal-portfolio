@@ -52,7 +52,7 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          onSubmit={handleSubmit}
+          onSubmit='submit'
         >
           {/* Hidden fields for Netlify */}
           <input type="hidden" name="form-name" value="contact" />
@@ -65,16 +65,16 @@ const Contact = () => {
               <FaRegUserCircle size={22} className="text-gray-300 mt-[14px] ml-2 absolute z-10" />
               <input
                 type="text"
-                id="name"
+                // id="name"
                 name="name"
-                value={formData.name}
-                onChange={handleChange}
+                // value={formData.name}
+                // onChange={handleChange}
                 placeholder="Enter Your Name"
                 className="input-style border border-gray-300 rounded-md pl-10 text-sm"
               />
-              {errors.name && (
+              {/* {errors.name && (
                 <div className="text-red-600 text-sm text-left">{errors.name}</div>
-              )}
+              )} */}
             </div>
 
             <div className="mb-5">
@@ -84,16 +84,16 @@ const Contact = () => {
               <MdEmail size={22} className="text-gray-300 mt-[14px] ml-2 absolute z-10" />
               <input
                 type="email"
-                id="email"
+                // id="email"
                 name="email"
-                value={formData.email}
-                onChange={handleChange}
+                // value={formData.email}
+                // onChange={handleChange}
                 placeholder="name@gmail.com"
                 className="input-style border border-gray-300 rounded-md pl-10 text-sm"
               />
-              {errors.email && (
+              {/* {errors.email && (
                 <div className="text-red-600 text-sm text-left">{errors.email}</div>
-              )}
+              )} */}
             </div>
 
             <div className="mb-5">
@@ -101,16 +101,16 @@ const Contact = () => {
                 Message<span className="text-red-800">*</span>
               </label>
               <textarea
-                id="message"
+                // id="message"
                 name="message"
-                value={formData.message}
-                onChange={handleChange}
+                // value={formData.message}
+                // onChange={handleChange}
                 placeholder="Your Message..."
                 className="input-style border border-gray-300 rounded-md h-40 text-sm"
               ></textarea>
-              {errors.message && (
+              {/* {errors.message && (
                 <div className="text-red-600 text-sm text-left">{errors.message}</div>
-              )}
+              )} */}
             </div>
 
             <div className="flex mt-4 justify-center">
