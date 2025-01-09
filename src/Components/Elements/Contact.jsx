@@ -42,7 +42,7 @@ const handleSubmit = (value) => {
             onSubmit={handleSubmit}
           >
             {({ isSubmitting, setFieldValue }) => (
-              <Form>
+              <Form name='contactUS' netlify>
                 <div className='md:px-16 pt-10 pb-16'>
                   <div className=''>
                     <div className='mb-5'>
