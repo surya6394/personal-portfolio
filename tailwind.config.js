@@ -12,6 +12,9 @@ export default {
       colors: {
         "orgClr": "#FD6F00",    
         "textclr1": "#000000"
+      },
+      transitionTimingFunction: {
+        'jump': ' cubic-bezier(0.68, -0.55, 0.265, 1.55)'
       }
     },
   },

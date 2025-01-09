@@ -6,22 +6,22 @@ const Services = () => {
   const cards = [
     {
       icon: icon1,
-      heading: "UI/UX",
+      heading: "Web Application",
       paragraph: "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
     },
     {
       icon: icon1,
-      heading: "Web Design",
+      heading: "CMS",
       paragraph: "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
     },
     {
       icon: icon1,
-      heading: "App Design",
+      heading: "Portfolio",
       paragraph: "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
     },
     {
       icon: icon1,
-      heading: "Graphic Design ",
+      heading: "UI/UX ",
       paragraph: "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
     },
   ]
@@ -31,16 +31,16 @@ const Services = () => {
       <div className='my-20'>
         <div>
           <div className='text-center'>
-            <h1 className='text-[65px] font-[600]'>Services</h1>
-            <p className='text-[21px] font-[400] mx-44'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+            <h1 className='md:text-[50px] text-[36px] font-[600]'>Services</h1>
+            <p className='md:text-[20px] text-[16px] font-[400] md:w-[60%] mx-auto'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
           </div>
-          <div className='flex justify-center text-left mt-10 space-x-4'>
+          <div className='flex md:flex-row flex-col justify-center gap-10 text-left mt-10'>
             {cards.map((card, index) => (
-              <div key={index} className='w-[330px] pl-2 py-6 bg-[#f6f4f4] rounded overflow-hidden shadow-md m-4'>
-                <img className='w-[50px]' src={card.icon} alt='Service Icon' />
+              <div key={index} className='w-full px-5 py-6 bg-[#f6f4f4] rounded-md overflow-hidden shadow-md hover:scale-105 hover:drop-shadow-[0_0px_10px_#111] ease-in-out duration-150'>
+                <img className='w-[40px]' src={card.icon} alt='Service Icon' />
                 <div>
-                  <div className='font-bold text-[32px] my-4'>{card.heading}</div>
-                  <p className='text-gray-700 text-[19px]'>
+                  <div className='font-semibold text-[26px] my-4'>{card.heading}</div>
+                  <p className='text-gray-700 text-[16px]'>
                     {card.paragraph}
                   </p>
                 </div>

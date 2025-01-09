@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .input-style {
+    @apply mt-1 p-2.5 w-full border rounded-sm focus:border-gray-400 ring-1 ring-gray-300;
+  }
+}
