@@ -59,7 +59,7 @@ const Testimonials = () => {
                   seamlessly."
                 </p>
                 <h2 className='text-right text-[rgba(16,16,16,1)] font-semibold md:text-[40px] text-[25px]'>
-                  Surya Pratap
+                  Kartik
                 </h2>
                 <h2 className='text-right text-[rgba(16,16,16,1)] md:text-[16px] text-[13px]'>
                   CEO Of HitWeb
