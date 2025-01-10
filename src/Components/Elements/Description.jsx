@@ -9,15 +9,17 @@ const Description = () => {
         <div className='text-left mt-10'>
           <div>
             <h3 className='font-[600] md:text-[24px] text-[20px]'>Hi I am </h3>
-            <h2 className='font-[600] md:text-[32px] text-[24px] text-orgClr'>Surya Pratap</h2>
+            <h2 className='font-[600] md:text-[32px] text-[24px] text-orgClr'>
+              Surya Pratap
+            </h2>
             <div className='font-[700] md:text-[80px] text-[45px] md:leading-[90px] leading-[60px]'>
               <h1>Frontend</h1>
               <h1 className='ml-[50px]'>Developer</h1>
             </div>
             <p className='mt-3 md:text-[20px] text-[16px] font-[400] leading-[31.5px]'>
-              Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-              nibh lectus netus in. Aliquet donec morbi convallis pretium.
-              Turpis tempus pharetra
+              Creating dynamic, responsive, and visually stunning web
+              applications tailored to your needs. Let's transform ideas into
+              reality with clean code and seamless user experiences.
             </p>
             <div className='flex'>
               <SocialIcons />
