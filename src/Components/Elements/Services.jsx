@@ -34,10 +34,12 @@ const Services = () => {
       <div className='my-20'>
         <div>
           <div className='text-center'>
-            <h1 className='md:text-[50px] text-[36px] font-[600]'>Services</h1>
-            <p className='md:text-[20px] text-[16px] font-[400] md:w-[60%] mx-auto'>
+            <h1 className='md:text-[50px] text-[36px] sm:border-b-2 relative z-10 bg-[#fff] w-max mx-auto px-2 py-2 border-b-4 border-orgClr font-[600]'>
+              Services
+            </h1>
+            <p className='md:text-[20px] text-[16px] font-[400] mt-5 md:w-[60%] mx-auto'>
               I provide end-to-end frontend solutions that cater to your
-              specific needs:
+              specific needs
             </p>
           </div>
           <div className='flex md:flex-row flex-col justify-center gap-10 text-left mt-10'>

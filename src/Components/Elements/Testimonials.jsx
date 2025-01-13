@@ -9,6 +9,11 @@ import { Pagination, Navigation } from 'swiper/modules'
 const Testimonials = () => {
   return (
     <>
+      <div className='mt-14'>
+        <h1 className='md:text-[50px] text-[36px] sm:border-b-2 relative z-10 bg-[#fff] w-max mx-auto px-2 py-2 border-b-4 border-orgClr font-[600]'>
+          Testimonials
+        </h1>
+      </div>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -18,7 +23,7 @@ const Testimonials = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className='h-[100%] w-[100%] mt-20 py-20 '
+        className='h-[100%] w-[100%] py-16 '
       >
         <SwiperSlide>
           <div className='px-4'>
