@@ -16,13 +16,13 @@ const Navbar = () => {
   }
 
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/cv.pdf'; // Path to your CV file in the public folder
-    link.download = 'SuryaPratap_CV.pdf'; // Name of the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+    const link = document.createElement('a')
+    link.href = '/cv.pdf' // Path to your CV file in the public folder
+    link.download = 'SuryaPratap_CV.pdf' // Name of the downloaded file
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
 
   return (
     <>
@@ -50,12 +50,18 @@ const Navbar = () => {
             <a href='#contact' className='hover:text-gray-400'>
               Contact
             </a>
-            <button onClick={handleDownload} className='bg-[#FD6F00] text-[#FFFFFF] text-[16px] px-2 py-1.5 rounded-md'>
+            <button
+              onClick={handleDownload}
+              className='bg-[#FD6F00] text-[#FFFFFF] text-[16px] px-2 py-1.5 rounded-md'
+            >
               Download CV
             </button>
           </div>
           <div className='md:hidden flex gap-5 items-center'>
-            <button onClick={handleDownload} className='bg-[#FD6F00] text-[#FFFFFF] px-2 py-1.5 text-[14px] rounded-md'>
+            <button
+              onClick={handleDownload}
+              className='bg-[#FD6F00] text-[#FFFFFF] px-2 py-1.5 text-[14px] rounded-md'
+            >
               Download CV
             </button>
             <button onClick={toggleMenu} className='focus:outline-none'>
@@ -115,6 +121,11 @@ const Navbar = () => {
         <Testimonials />
       </div>
       <div id='contact'>
+        <div className='mt-14'>
+          <h1 className='md:text-[50px] text-[36px] border-b-2 relative z-10 bg-[#fff] w-max mx-auto px-2 py-2 border-orgClr font-[600]'>
+            Contact
+          </h1>
+        </div>
         <Contact />
       </div>
       <div id='footer'>

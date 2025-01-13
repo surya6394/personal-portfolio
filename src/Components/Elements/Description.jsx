@@ -6,13 +6,13 @@ import Popup from 'reactjs-popup'
 
 const Description = () => {
   const [form, setFrom] = useState(false)
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false)
 
   const handleHire = () => {
     setFrom(true)
   }
   const onClose = () => {
-    setFrom(false);
+    setFrom(false)
   }
 
   return (
@@ -54,11 +54,12 @@ const Description = () => {
         open={form}
         modal
         closeOnDocumentClick={false}
-        className='custom-popup'
+        className='scale-105 ease-in-out duration-200 '
       >
-        <div className='popup-content font-avenir fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 backdrop-blur-sm'>
+        <div className='popup-content ease-jump duration-200 font-avenir fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 backdrop-blur-sm'>
           <div className='bg-[#fff] md:w-[987px] w-[350px] mx-auto h-auto px-5 overflow-y-auto rounded-[14px]'>
-            <div className='flex justify-between pt-5'>
+            <div className='flex justify-between pt-3 pb-5 md:pb-0'>
+              <h1 className='text-[22px] font-[500]'>Reach out to me</h1>
               <button
                 type='submit'
                 onClick={() => {

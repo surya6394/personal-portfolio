@@ -32,11 +32,6 @@ const Contact = () => {
   return (
     <>
       <div>
-        <div className='mt-14'>
-          <h1 className='md:text-[50px] text-[36px] border-b-2 relative z-10 bg-[#fff] w-max mx-auto px-2 py-2 border-orgClr font-[600]'>
-            Contact
-          </h1>
-        </div>
         <div className='flex md:flex-row flex-col md:gap-10 items-center'>
           <div className='hidden md:block w-full'>
             <img src={img} alt='' width='100%' height='100%' />
@@ -49,7 +44,7 @@ const Contact = () => {
             >
               {({ isSubmitting, setFieldValue }) => (
                 <Form>
-                  <div className='md:px-16 pt-10 pb-16'>
+                  <div className='md:px-16 pb-5'>
                     <div className=''>
                       <div className='mb-5'>
                         <label
