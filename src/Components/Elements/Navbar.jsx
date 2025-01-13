@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.href = '/cv.pdf' // Path to your CV file in the public folder
+    link.href = '/SuryaPratap_CV.pdf' // Path to your CV file in the public folder
     link.download = 'SuryaPratap_CV.pdf' // Name of the downloaded file
     document.body.appendChild(link)
     link.click()
@@ -51,7 +51,7 @@ const Navbar = () => {
               Contact
             </a>
             <button
-              onClick={handleDownload}
+              onClick={() => handleDownload()}
               className='bg-[#FD6F00] text-[#FFFFFF] text-[16px] px-2 py-1.5 rounded-md'
             >
               Download CV
@@ -59,7 +59,7 @@ const Navbar = () => {
           </div>
           <div className='md:hidden flex gap-5 items-center'>
             <button
-              onClick={handleDownload}
+              onClick={() => handleDownload()}
               className='bg-[#FD6F00] text-[#FFFFFF] px-2 py-1.5 text-[14px] rounded-md'
             >
               Download CV
