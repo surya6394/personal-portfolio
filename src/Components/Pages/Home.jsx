@@ -4,9 +4,10 @@ import Navbar from '../Elements/Navbar'
 const Home = () => {
   return (
     <>
-      <div className='container mx-auto'>
+      <div className=''>
         <Navbar />
       </div>
+      
     </>
   )
 }

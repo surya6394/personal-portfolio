@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Components/Pages/Home'
 
@@ -9,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='#FFFFFF font-poppins'>
+      <div className='w-full font-poppins'>
         <Home />
       </div>
     </>

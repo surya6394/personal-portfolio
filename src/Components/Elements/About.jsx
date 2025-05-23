@@ -1,83 +1,194 @@
-import React from 'react'
-import img from '../images/self.png'
+import React from "react";
+import SocialIcons from "./SocialIcons";
+import {
+  FaCode,
+  FaDatabase,
+  FaGraduationCap,
+  FaLayerGroup,
+} from "react-icons/fa";
+import { CiCalendar } from "react-icons/ci";
+import { MdDisplaySettings } from "react-icons/md";
+import { FiGithub } from "react-icons/fi";
+import { HiArrowLongRight } from "react-icons/hi2";
 
 const About = () => {
   return (
     <>
-      <div className='flex md:flex-row flex-col justify-between items-center mt-32 gap-32'>
-        <div className='w-full hidden md:block'>
-          <img src={img} alt='Profile image.' />
-        </div>
-        <div className='text-left w-full'>
+      <div className="flex md:flex-row flex-col mt-16 py-16 gap-20">
+        <div className="lg:w-[50%] text-left ">
           <div>
-            <h1 className='font-[600] md:text-[50px] text-[36px]'>About Me </h1>
-            <p className=' mb-5 md:text-[20px] text-[16px] font-[400] leading-[29px]'>
-              I'm a passionate Frontend Developer with a strong focus on
-              building user-centered web applications using modern tools like
-              ReactJS, ReduxJS, JavaScript, and Tailwind CSS. With a commitment to clean
-              code and performance optimization, I specialize in designing
-              intuitive and functional user interfaces. My goal is to deliver
-              high-quality solutions that exceed expectations and solve
-              real-world problems.
-            </p>
-            <div class='mb-2 text-base font-[600] text-textclr1'>React JS</div>
-            <div class='w-full bg-gray-200 rounded-full mb-4 dark:bg-gray-700'>
-              <div
-                class='flex justify-end items-center bg-orgClr h-[10px] rounded-full'
-                style={{ width: '95%' }}
-              >
-                <div className='w-[32px] h-[32px] rounded-full bg-[#EDECEC] border-2 border-orgClr'></div>
+            <h1 className="font-[600] md:text-[50px] text-[36px] -mt-3">ABOUT ME</h1>
+            <div className="md:text-[16px] text-[14px] font-[400] leading-[25px]">
+              <p className="mb-2">
+                I’m a Frontend Developer with over{" "}
+                <b>2 years of professional experience</b> in building scalable,
+                responsive, and user-centric web applications. I’m passionate
+                about creating clean, intuitive, and efficient user interfaces
+                that enhance user experiences and drive engagement.
+              </p>
+              <p className="mb-2">
+                With a strong commitment to performance, usability, and
+                maintainability, I enjoy turning complex ideas into elegant
+                digital solutions. I thrive in collaborative, agile environments
+                and take pride in delivering high-quality work that meets both
+                user needs and business goals.
+              </p>
+              <p>
+                My goal is to continue creating impactful digital experiences
+                that align with business objectives while providing exceptional
+                value to end users.
+              </p>
+            </div>
+          </div>
+          <div className="mt-3">
+            <h2 className="font-semibold text-[20px]">Education</h2>
+          </div>
+          <div className="flex mt-1 gap-3">
+            <FaGraduationCap size={30} className="text-orgClr" />
+            <div>
+              <h1 className="font-semibold text-[16px]">
+                B-TECH in Computer Science and Engineering
+              </h1>
+              <h2 className="text-[14px]">
+                Dr. APJ Abdul Kalam Technical University, Lucknow
+              </h2>
+              <h2 className="flex items-center gap-2 text-[14px]">
+                <CiCalendar size={20} />
+                2019 - 2023
+              </h2>
+            </div>
+          </div>
+          <div className="mt-3">
+            <h2 className="font-semibold text-[20px]">Connect With Me</h2>
+          </div>
+          <div className="flex mt-1.5 ml-5">
+            <SocialIcons />
+          </div>
+        </div>
+
+        <div className="lg:w-[50%]">
+          <div className="mb-5">
+            <h2 className="font-semibold text-[20px]">Technical Skills</h2>
+          </div>
+          <div className="flex">
+            <div className="lg:w-[50%] w-full">
+              <div className="flex items-center gap-3 text-[16px] font-semibold">
+                <FaCode className="text-orgClr" /> Languages
               </div>
+              <ul className="-space-y-1 ml-5 text-orgClr list-disc list-inside">
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">JavaScript</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">TypeScript</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">C</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">Java</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">HTML5</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">CSS3</span>
+                </li>
+              </ul>
             </div>
-            <div class='mb-2 text-base font-[600] text-textclr1'>
-              Redux JS
-            </div>
-            <div class='w-full bg-gray-200 rounded-full h-[10px] mb-4 dark:bg-gray-700'>
-              <div
-                class='flex justify-end items-center bg-orgClr h-[10px] rounded-full'
-                style={{ width: '93%' }}
-              >
-                <div className='w-[32px] h-[32px] rounded-full bg-[#EDECEC] border-2 border-orgClr'></div>
+            <div className="lg:w-[50%] w-full">
+              <div className="flex items-center gap-3 text-[16px] font-semibold">
+                <FaLayerGroup className="text-orgClr" /> Frameworks & Libraries
               </div>
+              <ul className="-space-y-1 ml-5 text-orgClr list-disc list-inside">
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">React JS</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">Vite JS</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">Next JS</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">
+                    Redux & Flux
+                  </span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">
+                    Tailwind CSS
+                  </span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">Bootstrap</span>
+                </li>
+              </ul>
             </div>
-            <div class='mb-2 text-base font-[600] text-textclr1'>
-              JavaScript
-            </div>
-            <div class='w-full bg-gray-200 rounded-full h-[10px] mb-4 dark:bg-gray-700'>
-              <div
-                class='flex justify-end items-center bg-orgClr h-[10px] rounded-full'
-                style={{ width: '90%' }}
-              >
-                <div className='w-[32px] h-[32px] rounded-full bg-[#EDECEC] border-2 border-orgClr'></div>
+          </div>
+
+          <div className="flex mt-4">
+            <div className="lg:w-[50%] w-full">
+              <div className="flex items-center gap-3 text-[16px] font-semibold">
+                <MdDisplaySettings className="text-orgClr" /> Web Dev Tools
               </div>
+              <ul className="-space-y-1 ml-5 text-orgClr list-disc list-inside">
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">Git</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">GitHub</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">JIRA</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">SonarQube</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">IntelliJ</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">Postman</span>
+                </li>
+              </ul>
             </div>
-            <div class='mb-2 text-base font-[600] text-textclr1'>
-              Tailwind CSS
-            </div>
-            <div class='w-full bg-gray-200 rounded-full h-[10px] mb-4 dark:bg-gray-700'>
-              <div
-                class='flex justify-end items-center bg-orgClr h-[10px] rounded-full'
-                style={{ width: '95%' }}
-              >
-                <div className='w-[32px] h-[32px] rounded-full bg-[#EDECEC] border-2 border-orgClr'></div>
+            <div className="lg:w-[50%] w-full">
+              <div className="flex items-center gap-3 text-[16px] font-semibold">
+                <FaDatabase className="text-orgClr" /> Database
               </div>
+              <ul className="-space-y-1 ml-5 text-orgClr list-disc list-inside">
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">Mongo DB</span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px]">MySQL</span>
+                </li>
+              </ul>
             </div>
-            <div class='mb-2 text-base font-[600] text-textclr1'>
-              HTML & CSS
-            </div>
-            <div class='w-full bg-gray-200 rounded-full h-[10px] mb-4 dark:bg-gray-700'>
-              <div
-                class='flex justify-end items-center bg-orgClr h-[10px] rounded-full'
-                style={{ width: '97%' }}
-              >
-                <div className='w-[32px] h-[32px] rounded-full bg-[#EDECEC] border-2 border-orgClr'></div>
+          </div>
+
+          <div className="mt-7">
+            <div className="border-[1px] border-gray-200 rounded-md p-5 shadow space-y-2">
+              <div className="flex items-center gap-2 font-semibold text-[16px]">
+                <FiGithub className="text-orgClr" /> Latest GitHub Contributions
               </div>
+              <h2 className="text-[14px] text-gray-600">
+                View my projects and contributions on GitHub
+              </h2>
+              <a
+                href="https://github.com/surya6394"
+                target="_blank"
+                className="text-[14px] text-blue-700 hover:underline flex items-center gap-1"
+              >
+                Visit my GitHub profile <HiArrowLongRight />
+              </a>
             </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
