@@ -8,8 +8,8 @@ const Projects = () => {
     <>
       <div>
         <div>
-          <section className='max-w-screen-xl mx-auto relative'>
-            <h1 className='md:text-[50px] text-[36px] border-b-2 relative z-10 bg-[#fff] w-max mx-auto px-4 py-2 border-orgClr font-[600]'>
+          <section className='max-w-screen-xl mx-auto pb-10 relative'>
+            <h1 className='md:text-[50px] text-[36px] border-b-2 relative z-10 bg-gray-100 w-max mx-auto px-4 py-2 border-orgClr font-[600]'>
               My Projects
             </h1>
             {/* <p className='text-[21px] font-[400] mx-44 my-5'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p> */}
@@ -60,12 +60,11 @@ const Projects = () => {
                 <h2 className='text-[#0B1E59] text-left text-lg'>
                   (Banking Loan Management)
                 </h2>
-                <p className='text-justify mt-2'>
-                  Built a comprehensive loan management system from scratch with
-                  advanced features and seamless UI.
+                <p className='text-justify mt-2 text-gray-700'>
+                Architected the Clevdoc <span className='font-semibold'>Banking Platform</span>, a responsive <span className='font-semibold'>loan recovery solution</span> that enhances communication between banks and borrowers, ensuring a seamless user experience and streamlined <span className='font-semibold'>financial workflows</span>. Developed a robust <span className='font-semibold'>Banking CMS</span> to manage data efficiently, improving operational integrity and performance. Integrated a secure <span className='font-semibold'>payment gateway</span> for smooth and hassle-free transactions, and implemented real-time <span className='font-semibold'>push notifications</span> using Firebase to keep users instantly informed of critical updates.
                 </p>
 
-                <ul className='flex flex-wrap gap-2 mt-2'>
+                <ul className='flex flex-wrap gap-2 mt-2  text-gray-700'>
                   <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
                     #react.js
                   </li>
@@ -76,7 +75,7 @@ const Projects = () => {
                     #node.js
                   </li>
                   <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
-                    #swiper.js
+                    #firebase
                   </li>
                   <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
                     #mongoDB

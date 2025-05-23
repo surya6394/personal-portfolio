@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import img from "../images/LOGO.png";
 import Description from "./Description";
 import About from "./About";
@@ -7,13 +7,25 @@ import Projects from "./Projects";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Experience from "./Experience";
+import DSASection from "./DSASection";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const root = window.document.documentElement;
+    if (isDark) {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
+  }, [isDark]);
 
   return (
     <>
@@ -29,26 +41,35 @@ const Navbar = () => {
             <a href="#about" className="hover:text-gray-900">
               About
             </a>
-            <a href="#services" className="hover:text-gray-900">
-              Services
+            <a href="#experience" className="hover:text-gray-900">
+              Experience
             </a>
+            {/* <a href="#services" className="hover:text-gray-900">
+              Services
+            </a> */}
             <a href="#projects" className="hover:text-gray-900">
               Projects
             </a>
-            <a href="#reviews" className="hover:text-gray-900">
+            {/* <a href="#reviews" className="hover:text-gray-900">
               Testimonials
-            </a>
+            </a> */}
             <a href="#contact" className="hover:text-gray-900">
               Contact
             </a>
+            {/* <button
+              onClick={() => setIsDark(!isDark)}
+              className="fixed top-4 right-4 p-2 bg-gray-200 dark:bg-gray-700 rounded-full shadow-md hover:scale-105 transition"
+            >
+              {isDark ? "🌙" : "☀️"}
+            </button> */}
           </div>
           <div className="md:hidden flex gap-5 items-center">
-            <button
+            {/* <button
               // onClick={() => handleDownload()}
               className="bg-[#FD6F00] text-[#FFFFFF] px-2 py-1.5 text-[14px] rounded-md"
             >
               Download CV
-            </button>
+            </button> */}
             <button onClick={toggleMenu} className="focus:outline-none">
               <svg
                 className="w-6 h-6"
@@ -95,20 +116,32 @@ const Navbar = () => {
         <div className="container px-5 md:px-14 mx-auto">
           <Description />
         </div>
-        <div id="about" className="bg-slate-100">
+        <div id="about" className="bg-slate-100 dark:bg-slate-950">
           <div className="container px-5 md:px-14 mx-auto">
             <About />
           </div>
         </div>
-        <div id="services">
+        <div id="experience" className="bg-slate-50 dark:bg-gray-900">
+          <div className="container px-5 md:px-14 mx-auto">
+            <Experience />
+          </div>
+        </div>
+        {/* <div id="services">
           <Services />
+        </div> */}
+        <div id="projects" className="bg-slate-200 dark:bg-slate-950">
+          <div className="container px-5 md:px-14 mx-auto">
+            <DSASection />
+          </div>
         </div>
-        <div id="projects">
-          <Projects />
+        <div id="projects" className="bg-slate-100 py-14 dark:bg-gray-900">
+          <div className="container px-5 md:px-14 mx-auto">
+            <Projects />
+          </div>
         </div>
-        <div id="reviews">
+        {/* <div id="reviews">
           <Testimonials />
-        </div>
+        </div> */}
         <div id="contact">
           <div className="mt-14">
             <h1 className="md:text-[50px] text-[36px] border-b-2 relative z-10 bg-[#fff] w-max mx-auto px-2 py-2 border-orgClr font-[600]">

@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full font-poppins'>
+      <div className='w-full font-poppins bg-white text-gray-800 dark:bg-gray-900 dark:text-white min-h-screen transition-colors duration-300'>
         <Home />
       </div>
     </>

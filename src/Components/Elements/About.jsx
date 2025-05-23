@@ -17,7 +17,7 @@ const About = () => {
       <div className="flex md:flex-row flex-col mt-16 py-16 gap-20">
         <div className="lg:w-[50%] text-left ">
           <div>
-            <h1 className="font-[600] md:text-[50px] text-[36px] -mt-3">ABOUT ME</h1>
+            <h1 className="font-[600] md:text-[40px] text-[28px] -mt-3">About Me</h1>
             <div className="md:text-[16px] text-[14px] font-[400] leading-[25px]">
               <p className="mb-2">
                 I’m a Frontend Developer with over{" "}
@@ -77,22 +77,22 @@ const About = () => {
               </div>
               <ul className="-space-y-1 ml-5 text-orgClr list-disc list-inside">
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">JavaScript</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">JavaScript</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">TypeScript</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">TypeScript</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">C</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">C</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">Java</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">Java</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">HTML5</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">HTML5</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">CSS3</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">CSS3</span>
                 </li>
               </ul>
             </div>
@@ -102,26 +102,26 @@ const About = () => {
               </div>
               <ul className="-space-y-1 ml-5 text-orgClr list-disc list-inside">
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">React JS</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">React JS</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">Vite JS</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">Vite JS</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">Next JS</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">Next JS</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">
                     Redux & Flux
                   </span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">
                     Tailwind CSS
                   </span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">Bootstrap</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">Bootstrap</span>
                 </li>
               </ul>
             </div>
@@ -134,22 +134,22 @@ const About = () => {
               </div>
               <ul className="-space-y-1 ml-5 text-orgClr list-disc list-inside">
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">Git</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">Git</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">GitHub</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">GitHub</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">JIRA</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">JIRA</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">SonarQube</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">SonarQube</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">IntelliJ</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">IntelliJ</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">Postman</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">Postman</span>
                 </li>
               </ul>
             </div>
@@ -159,10 +159,10 @@ const About = () => {
               </div>
               <ul className="-space-y-1 ml-5 text-orgClr list-disc list-inside">
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">Mongo DB</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">Mongo DB</span>
                 </li>
                 <li className="text-orgClr text-[20px]">
-                  <span className="text-gray-600 text-[16px]">MySQL</span>
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">MySQL</span>
                 </li>
               </ul>
             </div>
