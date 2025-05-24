@@ -9,10 +9,13 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Experience from "./Experience";
 import DSASection from "./DSASection";
+import { MdDarkMode } from "react-icons/md";
+import { CiLight } from "react-icons/ci";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -27,9 +30,20 @@ const Navbar = () => {
     }
   }, [isDark]);
 
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <>
-      <nav className="text-[#ffffff] bg-gray-400">
+      <nav
+        className={`fixed top-0 w-full z-50 transition-colors duration-75 
+        ${scrolled ? "bg-white dark:bg-black shadow-md" : "bg-transparent"}`}
+      >
         <div className="container flex justify-between items-center h-24 px-5 md:px-14 mx-auto">
           <div className="flex items-center text-2xl font-bold">
             <img src={img} alt="Profile image." width="60%" />
@@ -56,12 +70,14 @@ const Navbar = () => {
             <a href="#contact" className="hover:text-gray-900">
               Contact
             </a>
-            {/* <button
-              onClick={() => setIsDark(!isDark)}
-              className="fixed top-4 right-4 p-2 bg-gray-200 dark:bg-gray-700 rounded-full shadow-md hover:scale-105 transition"
-            >
-              {isDark ? "🌙" : "☀️"}
-            </button> */}
+            <a>
+              <button
+                onClick={() => setIsDark(!isDark)}
+                className="top-7 right-8 p-2 rounded-full hover:scale-125 text-orgClr transition"
+              >
+                {isDark ? <MdDarkMode size={23} /> : <CiLight size={23} />}
+              </button>
+            </a>
           </div>
           <div className="md:hidden flex gap-5 items-center">
             {/* <button
@@ -112,7 +128,7 @@ const Navbar = () => {
         )}
       </nav>
 
-      <div>
+      <div className="pt-[120px] bg-slate-50 dark:bg-gray-900">
         <div className="container px-5 md:px-14 mx-auto">
           <Description />
         </div>
@@ -143,12 +159,12 @@ const Navbar = () => {
           <Testimonials />
         </div> */}
         <div id="contact">
-          <div className="mt-14">
-            <h1 className="md:text-[50px] text-[36px] border-b-2 relative z-10 bg-[#fff] w-max mx-auto px-2 py-2 border-orgClr font-[600]">
-              Contact
+          <div className="container px-5 md:px-14 mx-auto mt-14">
+            <h1 className="md:text-[40px] text-[28px] font-[600]">
+              Contact Me
             </h1>
+            <Contact />
           </div>
-          <Contact />
         </div>
       </div>
       <div id="footer">

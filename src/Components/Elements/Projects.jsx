@@ -9,7 +9,7 @@ const Projects = () => {
       <div>
         <div>
           <section className='max-w-screen-xl mx-auto pb-10 relative'>
-            <h1 className='md:text-[50px] text-[36px] border-b-2 relative z-10 bg-gray-100 w-max mx-auto px-4 py-2 border-orgClr font-[600]'>
+            <h1 className='md:text-[40px] text-[28px] border-b-2 relative z-10 bg-gray-100 w-max mx-auto px-4 py-2 border-orgClr font-[600]'>
               My Projects
             </h1>
             {/* <p className='text-[21px] font-[400] mx-44 my-5'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p> */}
