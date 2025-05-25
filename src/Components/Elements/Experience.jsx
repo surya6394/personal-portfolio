@@ -4,7 +4,7 @@ import { CiCalendar, CiLocationOn } from "react-icons/ci";
 const Experience = () => {
   return (
     <>
-      <div className="py-24">
+      <div className="md:py-24 py-14">
           <div>
             <h1 className="font-[600] md:text-[40px] text-[28px] -mt-3">
               Work Experience
@@ -14,7 +14,7 @@ const Experience = () => {
             <div className="md:w-[25%]">
               <h2 className="text-[20px] font-semibold">Frontend Developer</h2>
               <h2 className="font-[500] text-[16px] text-gray-800 dark:text-gray-200 mt-2.5">
-                ClevDoc Platforms Inc.
+                <a href="https://clevdoc.com/" target="_blank">ClevDoc Platforms Inc.</a>
               </h2>
               <h3 className="flex items-center gap-2 mt-1 text-[14px] text-gray-600 dark:text-gray-300">
                 <CiLocationOn size={20} />
@@ -74,7 +74,7 @@ const Experience = () => {
                 Software Engineer Trainee
               </h2>
               <h2 className="font-[500] text-[16px] text-gray-800 dark:text-gray-200 mt-2.5">
-                KiwiTech
+                <a href="https://kiwitech.com/" target="_blank">KiwiTech</a>
               </h2>
               <h3 className="flex items-center gap-2 mt-1 text-[14px] text-gray-600 dark:text-gray-300">
                 <CiLocationOn size={20} />
@@ -87,7 +87,7 @@ const Experience = () => {
             </div>
             <div className="w-[8%] relative border-l hidden sm:block border-gray-500">
               <a
-                href="https://clevdoc.com/"
+                href="https://kiwitech.com/"
                 target="_blank"
                 className="absolute w-3.5 h-3.5 rounded-full border-2 border-orgClr bg-white z-10 hover:scale-125 ease-in-out duration-200 translate-y-5 -translate-x-[7px]"
               ></a>

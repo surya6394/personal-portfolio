@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       <div>
-        <div className="flex md:flex-row pb-10 pt-5 flex-col md:gap-10">
+        <div className="flex md:flex-row pb-10 md:pt-5 flex-col md:gap-10">
           <div className="w-full">
             <h1 className="text-[22px] md:text-[26px] font-semibold">
               Let’s Build Something Together
@@ -23,7 +23,7 @@ const Contact = () => {
             <div className="mt-7">
               <div className="flex items-center gap-10">
                 <a href="mailto:surya4929pratap@gmail.com">
-                  <div className="bg-orange-100 p-3 rounded-full">
+                  <div className="bg-orange-100 dark:bg-orgClr p-3 rounded-full">
                     <SiGmail size={20} />
                   </div>
                 </a>
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center mt-5 gap-10">
                 <a href="tel:6394846889">
-                  <div className="bg-orange-100 p-3 rounded-full">
+                  <div className="bg-orange-100 dark:bg-orgClr p-3 rounded-full">
                     <FaPhoneAlt size={20} />
                   </div>
                 </a>
@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center mt-5 gap-10">
                 <a href="https://www.linkedin.com/in/surya-pratap-31a7211a1/">
-                  <div className="bg-orange-100 p-3 rounded-full">
+                  <div className="bg-orange-100 dark:bg-orgClr p-3 rounded-full">
                     <FaLinkedinIn size={20} />
                   </div>
                 </a>

@@ -3,7 +3,7 @@ import { FaLinkedin, FaWhatsapp, FaGithub, FaInstagram, FaEnvelope } from 'react
 
 const SocialIcons = () => {
   return (
-    <div className="flex space-x-6 justify-center items-center">
+    <div className="flex space-x-6 md:justify-center items-center">
       {/* LinkedIn */}
       <a
         href="https://www.linkedin.com/in/surya-pratap-31a7211a1/"

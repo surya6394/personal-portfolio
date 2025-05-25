@@ -9,7 +9,7 @@ const Projects = () => {
       <div>
         <div>
           <section className='max-w-screen-xl mx-auto pb-10 relative'>
-            <h1 className='md:text-[40px] text-[28px] border-b-2 relative z-10 bg-gray-100 w-max mx-auto px-4 py-2 border-orgClr font-[600]'>
+            <h1 className='md:text-[40px] text-[28px] border-b-2 relative z-10 bg-slate-100 dark:bg-gray-900 w-max mx-auto px-4 py-2 border-orgClr font-[600]'>
               My Projects
             </h1>
             {/* <p className='text-[21px] font-[400] mx-44 my-5'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p> */}
@@ -27,7 +27,7 @@ const Projects = () => {
                 className='flex relative w-full mb-5'
               >
                 <div className='relative group hover:scale-105 ease-in-out sm:hover:scale-105  duration-200'>
-                  <span className="flex group-hover:-top-14 ease-jump duration-200 absolute top-0 left-1/2 -translate-x-1/2 bg-[#0B1E59] text-[#FFFFFF] w-max px-4 py-2 rounded gap-1 items-center after:content-[''] after:w-5 after:h-5 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
+                  <span className="flex group-hover:-top-14 ease-jump duration-200 absolute top-0 left-1/2 -translate-x-1/2 bg-[#0B1E59] text-[#FFFFFF] dark:bg-[#FFFFFF] dark:text-[#0B1E59] w-max px-4 py-2 rounded gap-1 items-center after:content-[''] after:w-5 after:h-5 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
                     ClevDoc
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
@@ -47,24 +47,24 @@ const Projects = () => {
                     </svg>
                   </span>
                   <img
-                    className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_#0B1E59]'
+                    className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_#0B1E59] dark:drop-shadow-[0_0px_40px_#fff]'
                     src={Project2}
                     alt=''
                   />
                 </div>
               </a>
               <div className='w-full'>
-                <h3 className='text-[#0B1E59] text-left font-bold md:text-[40px] text-[30px]'>
+                <h3 className='text-[#0B1E59] dark:text-gray-200 text-left font-bold md:text-[40px] text-[30px]'>
                   ClevDoc Banking
                 </h3>
-                <h2 className='text-[#0B1E59] text-left text-lg'>
+                <h2 className='text-[#0B1E59] dark:text-gray-200 text-left text-lg'>
                   (Banking Loan Management)
                 </h2>
-                <p className='text-justify mt-2 text-gray-700'>
+                <p className='text-justify mt-2 text-gray-700 dark:dark:text-gray-300'>
                 Architected the Clevdoc <span className='font-semibold'>Banking Platform</span>, a responsive <span className='font-semibold'>loan recovery solution</span> that enhances communication between banks and borrowers, ensuring a seamless user experience and streamlined <span className='font-semibold'>financial workflows</span>. Developed a robust <span className='font-semibold'>Banking CMS</span> to manage data efficiently, improving operational integrity and performance. Integrated a secure <span className='font-semibold'>payment gateway</span> for smooth and hassle-free transactions, and implemented real-time <span className='font-semibold'>push notifications</span> using Firebase to keep users instantly informed of critical updates.
                 </p>
 
-                <ul className='flex flex-wrap gap-2 mt-2  text-gray-700'>
+                <ul className='flex flex-wrap gap-2 mt-2  text-gray-700 dark:text-gray-300'>
                   <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
                     #react.js
                   </li>
@@ -98,10 +98,10 @@ const Projects = () => {
             {/* Project 2 */}
             <div className='flex flex-col sm:flex-row gap-4 md:mt-24 sm:gap-[80px] items-center mt-20 relative'>
               <div className='w-full'>
-                <h3 className='text-[rgba(16,16,16,1)] text-right font-bold md:text-[40px] text-[30px]'>
+                <h3 className='text-[rgba(16,16,16,1)] dark:text-[#5cf81e] text-right font-bold md:text-[40px] text-[30px]'>
                   HitWeb
                 </h3>
-                <h2 className='text-[rgba(16,16,16,1)] text-lg text-right'>
+                <h2 className='text-[rgba(16,16,16,1)] dark:text-[hsl(103,92%,71%)] text-lg text-right'>
                   (IT Consultancy and Services Startup)
                 </h2>
                 <p className='text-justify mt-2'>
@@ -143,7 +143,7 @@ const Projects = () => {
               </div>
               <div className='h-[2px] left-1/2 right-[20%] bg-orgClr absolute top-1/2 hidden sm:block'></div>
               <a
-                href='https://clevdoc.com/'
+                href='#'
                 target='_blank'
                 className='w-4 h-4 rounded-full hidden sm:block border-[3px] border-orgClr absolute left-1/2 -translate-x-1/2 bg-[#fff] z-10 hover:scale-125 ease-in-out duration-200'
               ></a>
@@ -169,7 +169,7 @@ const Projects = () => {
                     </svg>
                   </span>
                   <img
-                    className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_rgba(16,16,16,1)]'
+                    className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_rgba(16,16,16,1)] dark:drop-shadow-[0_0px_40px_#96f96f]'
                     src={Project3}
                     alt=''
                   />

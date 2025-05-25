@@ -29,7 +29,7 @@ const Description = () => {
 
   return (
     <>
-      <div className="flex md:flex-row flex-col justify-between items-center md:gap-32 gap-10 mt-10">
+      <div className="flex md:flex-row flex-col justify-between items-center md:gap-32 gap-10 md:mt-0 mt-10">
         <div className="md:w-[55%] text-left">
           <div className="">
             <h3 className="font-[600] md:text-[24px] text-[20px]">Hi I am </h3>
@@ -57,7 +57,7 @@ const Description = () => {
                 <IoDocumentTextOutline /> Resume
               </button>
             </div>
-            <div className="flex gap-4 mt-3">
+            <div className="md:flex gap-4 mt-3">
               <div className="flex items-center gap-1">
               <IoIosCall /><a href="https://wa.me/6394846889">+91-6394846889</a>
               </div>
@@ -86,7 +86,7 @@ const Description = () => {
         <div className="popup-content ease-jump duration-200 font-avenir fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 backdrop-blur-sm">
           <div className="bg-[#fff] md:w-[987px] w-[350px] mx-auto h-auto px-5 overflow-y-auto rounded-[14px]">
             <div className="flex justify-between pt-3 pb-5 md:pb-0">
-              <h1 className="text-[22px] font-[500]">Reach out to me</h1>
+              <h1 className="text-[24px] md:text-[28px] font-[500]">Get in touch</h1>
               <button
                 type="submit"
                 onClick={() => {

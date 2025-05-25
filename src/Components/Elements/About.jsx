@@ -173,7 +173,7 @@ const About = () => {
               <div className="flex items-center gap-2 font-semibold text-[16px]">
                 <FiGithub className="text-orgClr" /> Latest GitHub Contributions
               </div>
-              <h2 className="text-[14px] text-gray-600">
+              <h2 className="text-[14px] text-gray-600 dark:text-gray-300">
                 View my projects and contributions on GitHub
               </h2>
               <a
