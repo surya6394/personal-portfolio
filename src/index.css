@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-style {
+    @apply mt-1 p-2.5 w-full border rounded-sm focus:border-gray-400 ring-1 ring-gray-300;
+  }
+}

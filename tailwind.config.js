@@ -1,0 +1,23 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: 'class',
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        "orgClr": "#FD6F00",    
+        "textclr1": "#000000"
+      },
+      transitionTimingFunction: {
+        'jump': ' cubic-bezier(0.68, -0.55, 0.265, 1.55)'
+      }
+    },
+  },
+  plugins: [],
+}
