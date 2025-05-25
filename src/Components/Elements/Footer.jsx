@@ -8,7 +8,7 @@ const Footer = () => {
       <div>
         <div className="md:flex justify-between pb-10">
           <div className="mt-2">
-            <img src={img} alt="Profile image." width="30%" />
+            <img src={img} alt="Profile image." width="20%" />
             <p className="text-[14px] md:w-[450px] text-gray-100 ml-1 mt-1">
               Frontend Developer skilled in React, Redux, and Tailwind CSS.
               Passionate about building responsive, user-friendly, and

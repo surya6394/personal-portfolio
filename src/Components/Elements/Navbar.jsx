@@ -68,7 +68,7 @@ const Navbar = () => {
       >
         <div className="container flex justify-between items-center h-24 px-5 md:px-14 mx-auto">
           <div className="flex items-center text-2xl font-bold">
-            <img src={img} alt="Profile image." width="60%" />
+            <img src={img} alt="Profile image." width="30%" />
           </div>
 
           {/* Desktop Menu */}
