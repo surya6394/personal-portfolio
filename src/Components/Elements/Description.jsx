@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../images/self.jpg";
+import img from "../images/self.png";
 import Contact from "./Contact";
 import Popup from "reactjs-popup";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -71,7 +71,7 @@ const Description = () => {
           <img
             src={img}
             alt="Profile image."
-            width={"85%"}
+            width={"70%"}
             className="drop-shadow-[0_0px_60px_#0B1E59] dark:drop-shadow-[0_0px_40px_#fff]"
           />
         </div>
