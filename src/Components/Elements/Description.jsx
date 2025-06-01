@@ -67,12 +67,12 @@ const Description = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-[45%]">
+        <div className="md:w-[45%] flex justify-center">
           <img
             src={img}
             alt="Profile image."
             width={"70%"}
-            className="drop-shadow-[0_0px_60px_#0B1E59] dark:drop-shadow-[0_0px_40px_#fff]"
+            className="drop-shadow-[0_0px_40px_#fea059] dark:drop-shadow-[0_0px_25px_#FD6F00]"
           />
         </div>
       </div>
