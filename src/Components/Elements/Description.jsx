@@ -72,7 +72,7 @@ const Description = () => {
             src={img}
             alt="Profile image."
             width={"70%"}
-            className="drop-shadow-[0_0px_40px_#fea059] dark:drop-shadow-[0_0px_40px_#fff]"
+            className="drop-shadow-[0_0px_40px_#fea059] dark:drop-shadow-[0_0px_25px_#FD6F00]"
           />
         </div>
       </div>
