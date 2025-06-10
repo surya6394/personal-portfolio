@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import img from "../images/LOGO.png";
 import Description from "./Description";
 import About from "./About";
-import Services from "./Services";
-import Projects from "./Projects";
-import Testimonials from "./Testimonials";
 import Contact from "./Contact";
+import Projects from "./Projects";
 import Footer from "./Footer";
 import Experience from "./Experience";
 import DSASection from "./DSASection";
@@ -47,6 +45,7 @@ const Navbar = () => {
 
   const renderNavLink = (id) => (
     <a
+      key={id}
       href={`#${id}`}
       onClick={() => {
         setActiveId(id);
@@ -73,7 +72,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-10">
-            {sections.map((id) => renderNavLink(id))}
+            {sections.map((id, index) => renderNavLink(id))}
             <button
               onClick={() => setIsDark(!isDark)}
               className="top-7 right-8 p-2 rounded-full hover:scale-125 text-orgClr transition"
@@ -117,7 +116,10 @@ const Navbar = () => {
         )}
       </nav>
 
-      <div id="home" className="md:pt-[120px] pt-[80px] bg-slate-50 dark:bg-gray-900">
+      <div
+        id="home"
+        className="md:pt-[120px] pt-[80px] bg-slate-50 dark:bg-gray-900"
+      >
         <div className="container px-5 md:px-14 mx-auto">
           <Description />
         </div>
