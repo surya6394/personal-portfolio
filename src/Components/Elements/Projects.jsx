@@ -109,8 +109,8 @@ const Projects = () => {
                 <h2 className='text-[#0B1E59] dark:text-gray-200 text-lg text-right'>
                   (Banking Content Management System)
                 </h2>
-                <p className='text-justify mt-2'>
-                Designed and developed a comprehensive <b>Banking CMS</b> to <b>streamline</b> data management for <b>loan recovery operations</b>. The <b>CMS</b> enhanced operational efficiency by providing a structured, intuitive interface for <b>ClevDoc to manage</b> bank and borrower information, <b>payment statuses</b>, loan management, <b>bank user management</b> and recovery workflows. Integrated secure access controls and real-time <b>Firebase notifications</b> for critical updates. Ensured data integrity and <b>smooth backend communication</b> through Redux Toolkit.
+                <p className='text-justify text-gray-700 mt-2'>
+                Designed and developed a comprehensive <span className='font-semibold'>Banking CMS</span> to <span className='font-semibold'>streamline</span> data management for <span className='font-semibold'>loan recovery operations</span>. The <span className='font-semibold'>CMS</span> enhanced operational efficiency by providing a structured, intuitive interface for <span className='font-semibold'>ClevDoc to manage</span> bank and borrower information, <span className='font-semibold'>payment statuses</span>, loan management, <span className='font-semibold'>bank user management</span> and recovery workflows. Integrated secure access controls and real-time <span className='font-semibold'>Firebase notifications</span> for critical updates. Ensured data integrity and <span className='font-semibold'>smooth backend communication</span> through Redux Toolkit.
                 </p>
 
                 <ul className='flex flex-wrap gap-2 mt-2'>
@@ -228,8 +228,8 @@ const Projects = () => {
                 <h2 className='text-[#45a42f] text-left text-lg'>
                   (Voice Emotion Analyzer)
                 </h2>
-                <p className='text-justify mt-2'>
-                VoiceKit is an <b>ML-powered tool</b> that analyzes emotions in recorded <b>audio conversations</b> to help businesses <b>evaluate client interactions</b>. It features emotion detection, <b>visual insights</b> via bar and donut charts, and <b>PDF reporting</b> for stakeholders. The platform empowers organizations to improve communication strategies, <b>boost client engagement</b>, and drive informed decisions.
+                <p className='text-justify text-gray-700 mt-2'>
+                VoiceKit is an <span className='font-semibold'>ML-powered tool</span> that analyzes emotions in recorded <span className='font-semibold'>audio conversations</span> to help businesses <span className='font-semibold'>evaluate client interactions</span>. It features emotion detection, <span className='font-semibold'>visual insights</span> via bar and donut charts, and <span className='font-semibold'>PDF reporting</span> for stakeholders. The platform empowers organizations to improve communication strategies, <span className='font-semibold'>boost client engagement</span>, and drive informed decisions.
                 </p>
 
                 <ul className='flex flex-wrap gap-2 mt-2'>
@@ -275,11 +275,11 @@ const Projects = () => {
                 <h2 className='text-[rgba(16,16,16,1)] dark:text-[hsl(103,92%,71%)] text-lg text-right'>
                   (IT Consultancy and Services Startup)
                 </h2>
-                <p className='text-justify mt-2'>
-                  Being a <b>lead developer</b>, revamped the site to a <b>highly
-                  responsive</b>, and interactive website. Created new features and
-                  pages. Worked as a team with other team member and <b>ux
-                  designer</b>.
+                <p className='text-justify text-gray-700 mt-2'>
+                  Being a <span className='font-semibold'>lead developer</span>, revamped the site to a <span className='font-semibold'>highly
+                  responsive</span>, and interactive website. Created new features and
+                  pages. Worked as a team with other team member and <span className='font-semibold'>ux
+                  designer</span>.
                 </p>
 
                 <ul className='flex flex-wrap gap-2 mt-2'>
@@ -394,9 +394,9 @@ const Projects = () => {
                 <h2 className='text-blue-500 text-left text-lg'>
                   (Software Development Agency)
                 </h2>
-                <p className='text-justify mt-2'>
-                  Developed a <b>full-fledged software development</b> platform
-                  focusing on <b>user needs and efficiency</b>. Built the complete site
+                <p className='text-justify text-gray-700 mt-2'>
+                  Developed a <span className='font-semibold'>full-fledged software development</span> platform
+                  focusing on <span className='font-semibold'>user needs and efficiency</span>. Built the complete site
                   from scratch.
                 </p>
 
