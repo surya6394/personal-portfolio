@@ -2,6 +2,8 @@ import React from 'react'
 import Project1 from '../images/Project_1.png'
 import Project2 from '../images/Project_2.png'
 import Project3 from '../images/Project_3.png'
+import Project4 from '../images/Project_4.png'
+import Project5 from '../images/Project_5.png'
 
 const Projects = () => {
   return (
@@ -48,7 +50,7 @@ const Projects = () => {
                   </span>
                   <img
                     className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_#0B1E59] dark:drop-shadow-[0_0px_40px_#fff]'
-                    src={Project2}
+                    src={Project1}
                     alt=''
                   />
                 </div>
@@ -70,6 +72,9 @@ const Projects = () => {
                   </li>
                   <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
                     #tailwind css
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #context api
                   </li>
                   <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
                     #node.js
@@ -98,17 +103,183 @@ const Projects = () => {
             {/* Project 2 */}
             <div className='flex flex-col sm:flex-row gap-4 md:mt-24 sm:gap-[80px] items-center mt-20 relative'>
               <div className='w-full'>
+                <h3 className='text-[#0B1E59] dark:text-gray-200 text-right font-bold md:text-[40px] text-[30px]'>
+                  Banking CMS
+                </h3>
+                <h2 className='text-[#0B1E59] dark:text-gray-200 text-lg text-right'>
+                  (Banking Content Management System)
+                </h2>
+                <p className='text-justify text-gray-700 mt-2'>
+                Designed and developed a comprehensive <span className='font-semibold'>Banking CMS</span> to <span className='font-semibold'>streamline</span> data management for <span className='font-semibold'>loan recovery operations</span>. The <span className='font-semibold'>CMS</span> enhanced operational efficiency by providing a structured, intuitive interface for <span className='font-semibold'>ClevDoc to manage</span> bank and borrower information, <span className='font-semibold'>payment statuses</span>, loan management, <span className='font-semibold'>bank user management</span> and recovery workflows. Integrated secure access controls and real-time <span className='font-semibold'>Firebase notifications</span> for critical updates. Ensured data integrity and <span className='font-semibold'>smooth backend communication</span> through Redux Toolkit.
+                </p>
+
+                <ul className='flex flex-wrap gap-2 mt-2'>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #react.js
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #redux
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #tailwind css
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #node.js
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #swiper.js
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #mongoDB
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #mongoose
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #css
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #javascript
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #figma
+                  </li>
+                </ul>
+              </div>
+              <div className='h-[2px] left-1/2 right-[20%] bg-orgClr absolute top-1/2 hidden sm:block'></div>
+              <a
+                href='https://cms.clevdoc.com/'
+                target='_blank'
+                className='w-4 h-4 rounded-full hidden sm:block border-[3px] border-orgClr absolute left-1/2 -translate-x-1/2 bg-[#fff] z-10 hover:scale-125 ease-in-out duration-200'
+              ></a>
+              <a href='https://cms.clevdoc.com/' className='flex w-full justify-end mt-10'>
+                <div className='relative group hover:scale-105 ease-in-out duration-200 sm:hover:scale-105'>
+                  <span className="flex group-hover:-top-14 ease-jump duration-200 absolute top-0 left-1/2 -translate-x-1/2 bg-[#0B1E59] text-[#FFFFFF] w-max px-4 py-2 rounded gap-1 items-center after:content-[''] after:w-5 after:h-5 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
+                    <p className='mr-2'>Banking</p> CMS
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      width='16'
+                      height='16'
+                      viewBox='0 0 24 24'
+                      fill='none'
+                      stroke='currentColor'
+                      stroke-width='2'
+                      stroke-linecap='round'
+                      stroke-linejoin='round'
+                      className='feather feather-external-link'
+                    >
+                      <path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'></path>
+                      <polyline points='15 3 21 3 21 9'></polyline>
+                      <line x1='10' y1='14' x2='21' y2='3'></line>
+                    </svg>
+                  </span>
+                  <img
+                    className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_#0B1E59] dark:drop-shadow-[0_0px_40px_#fff]'
+                    src={Project2}
+                    alt=''
+                  />
+                </div>
+              </a>
+            </div>
+            {/* Project 3 */}
+            <div className='flex flex-col sm:flex-row gap-4 md:mt-24 mt-32 sm:gap-[80px] items-center relative'>
+              <div className='h-[2px] left-[20%] right-1/2 bg-orgClr absolute top-1/2 hidden sm:block'></div>
+              <a
+                href='https://www.kiwitech.com/'
+                target='_blank'
+                className='w-4 h-4 hidden sm:block rounded-full border-[3px] border-orgClr absolute left-1/2 -translate-x-1/2 bg-[#fff] z-10 hover:scale-125 ease-in-out duration-200'
+              ></a>
+              <a
+                href='https://www.kiwitech.com/'
+                target='_blank'
+                className='flex w-full mb-5'
+              >
+                <div className='relative group hover:scale-105 ease-in-out duration-200 sm:hover:scale-105'>
+                  <span className="flex group-hover:-top-14 ease-jump duration-200 absolute top-0 left-1/2 -translate-x-1/2 bg-[#6ddb54] text-gray-900 w-max px-4 py-2 rounded gap-1 items-center after:content-[''] after:w-5 after:h-5 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
+                    Voice Kit
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      width='16'
+                      height='16'
+                      viewBox='0 0 24 24'
+                      fill='none'
+                      stroke='currentColor'
+                      stroke-width='2'
+                      stroke-linecap='round'
+                      stroke-linejoin='round'
+                      className='feather feather-external-link'
+                    >
+                      <path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'></path>
+                      <polyline points='15 3 21 3 21 9'></polyline>
+                      <line x1='10' y1='14' x2='21' y2='3'></line>
+                    </svg>
+                  </span>
+                  <img
+                    className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_#6ddb54]'
+                    src={Project3}
+                    alt=''
+                  />
+                </div>
+              </a>
+              <div className='w-full'>
+                <h3 className='text-[#6ddb54] text-left font-bold md:text-[40px] text-[30px]'>
+                  Voice Kit
+                </h3>
+                <h2 className='text-[#45a42f] text-left text-lg'>
+                  (Voice Emotion Analyzer)
+                </h2>
+                <p className='text-justify text-gray-700 mt-2'>
+                VoiceKit is an <span className='font-semibold'>ML-powered tool</span> that analyzes emotions in recorded <span className='font-semibold'>audio conversations</span> to help businesses <span className='font-semibold'>evaluate client interactions</span>. It features emotion detection, <span className='font-semibold'>visual insights</span> via bar and donut charts, and <span className='font-semibold'>PDF reporting</span> for stakeholders. The platform empowers organizations to improve communication strategies, <span className='font-semibold'>boost client engagement</span>, and drive informed decisions.
+                </p>
+
+                <ul className='flex flex-wrap gap-2 mt-2'>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #react.js
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #redux
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #tailwind css
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #python api
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #chart.js
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #mongoDB
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #mongoose
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #css
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #javascript
+                  </li>
+                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
+                    #figma
+                  </li>
+                </ul>
+              </div>
+            </div>
+            {/* Project 4 */}
+            <div className='flex flex-col sm:flex-row gap-4 md:mt-24 sm:gap-[80px] items-center mt-20 relative'>
+              <div className='w-full'>
                 <h3 className='text-[rgba(16,16,16,1)] dark:text-[#5cf81e] text-right font-bold md:text-[40px] text-[30px]'>
                   HitWeb
                 </h3>
                 <h2 className='text-[rgba(16,16,16,1)] dark:text-[hsl(103,92%,71%)] text-lg text-right'>
                   (IT Consultancy and Services Startup)
                 </h2>
-                <p className='text-justify mt-2'>
-                  Being a lead developer, revamped the site to a highly
-                  responsive, and interactive website. Created new features and
-                  pages. Worked as a team with other team member and ux
-                  designer.
+                <p className='text-justify text-gray-700 mt-2'>
+                  Being a <span className='font-semibold'>lead developer</span>, revamped the site to a <span className='font-semibold'>highly
+                  responsive</span>, and interactive website. Created new features and
+                  pages. Worked as a team with other team member and <span className='font-semibold'>ux
+                  designer</span>.
                 </p>
 
                 <ul className='flex flex-wrap gap-2 mt-2'>
@@ -170,13 +341,13 @@ const Projects = () => {
                   </span>
                   <img
                     className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_rgba(16,16,16,1)] dark:drop-shadow-[0_0px_40px_#96f96f]'
-                    src={Project3}
+                    src={Project4}
                     alt=''
                   />
                 </div>
               </a>
             </div>
-            {/* Project 3 */}
+            {/* Project 5 */}
             <div className='flex flex-col sm:flex-row gap-4 md:mt-24 mt-32 sm:gap-[80px] items-center relative'>
               <div className='h-[2px] left-[20%] right-1/2 bg-orgClr absolute top-1/2 hidden sm:block'></div>
               <a
@@ -211,7 +382,7 @@ const Projects = () => {
                   </span>
                   <img
                     className='max-w-[300px] mr-auto relative drop-shadow-[0_0px_60px_#3b82f6]'
-                    src={Project1}
+                    src={Project5}
                     alt=''
                   />
                 </div>
@@ -223,9 +394,9 @@ const Projects = () => {
                 <h2 className='text-blue-500 text-left text-lg'>
                   (Software Development Agency)
                 </h2>
-                <p className='text-justify mt-2'>
-                  Developed a full-fledged software development platform
-                  focusing on user needs and efficiency. Built the complete site
+                <p className='text-justify text-gray-700 mt-2'>
+                  Developed a <span className='font-semibold'>full-fledged software development</span> platform
+                  focusing on <span className='font-semibold'>user needs and efficiency</span>. Built the complete site
                   from scratch.
                 </p>
 
@@ -238,9 +409,6 @@ const Projects = () => {
                   </li>
                   <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
                     #node.js
-                  </li>
-                  <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
-                    #swiper.js
                   </li>
                   <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px]'>
                     #mongoDB
