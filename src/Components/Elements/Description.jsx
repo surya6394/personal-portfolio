@@ -37,7 +37,7 @@ const Description = () => {
               Surya Pratap
             </h2>
             <div className="font-[700] md:text-[70px] text-[45px] md:leading-[90px] leading-[60px]">
-              <h1>Frontend</h1>
+              <h1>Software</h1>
               <h1 className="md:ml-[130px] ml-0">Developer</h1>
             </div>
             <p className="mt-3 md:text-[20px] text-[16px] font-[400] leading-[28px]">
