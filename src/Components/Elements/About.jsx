@@ -20,8 +20,8 @@ const About = () => {
             <h1 className="font-[600] md:text-[40px] text-[28px] -mt-3">About Me</h1>
             <div className="md:text-[16px] text-[14px] font-[400] leading-[25px]">
               <p className="mb-2">
-                I’m a Frontend Developer with over{" "}
-                <b>2 years of professional experience</b> in building scalable,
+                I’m a Software Developer with over{" "}
+                <b>3 years of professional experience</b> in building scalable,
                 responsive, and user-centric web applications. I’m passionate
                 about creating clean, intuitive, and efficient user interfaces
                 that enhance user experiences and drive engagement.

@@ -5,10 +5,10 @@ import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Footer from "./Footer";
-import Experience from "./Experience";
 import DSASection from "./DSASection";
 import { MdDarkMode } from "react-icons/md";
 import { CiLight } from "react-icons/ci";
+import Experience from "./Experiences/Experience";
 
 const sections = ["home", "about", "experience", "projects", "contact"];
 
