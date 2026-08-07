@@ -9,8 +9,122 @@ const Projects = () => {
 
     const projects = [
         {
-            title: "ClevDoc Banking",
-            subtitle: "Banking Loan Management",
+            title: (
+                <>
+                    <span className="text-[#E81F76]">Ambient</span>{" "}
+                    <span className="text-black dark:text-white">Flow</span>
+                </>
+            ),
+            subtitle: (
+                <>
+                    <span className="text-black dark:text-white">NO-CODE</span>{" "}
+                    <span className="text-[#E81F76]">MULTI-AGENT</span>{" "}
+                    <span className="text-black dark:text-white">
+                        ORCHESTRATION PLATFORM
+                    </span>
+                </>
+            ),
+            image: Project1,
+            url: "https://clevdoc.com/",
+            color: "",
+            shadow: "drop-shadow-[0_0px_60px_#E81F76]",
+            tooltipBg: "bg-[#CBDA00]",
+            description: (
+                <p>
+                    Contributed to the development of <strong>Ambient Flow</strong>, a
+                    <strong> no-code multi-agent orchestration platform</strong> designed to automate complex
+                    enterprise workflows and business processes. Developed <strong>reusable and configurable workflow nodes </strong>
+                    that enabled seamless integration across multiple services and systems. Integrated
+                    <strong> Microsoft Graph APIs</strong> to automate <strong>Excel data extraction, manipulation, and management </strong>
+                    from <strong>OneDrive</strong> and <strong>SharePoint</strong>. Built advanced
+                    <strong> document processing capabilities</strong>, including range-based Excel extraction,
+                    page-range PDF extraction, and <strong>dynamic PDF generation</strong>. Developed robust
+                    <strong> email automation modules</strong> with <strong>multi-attachment support</strong>,
+                    enabling efficient document sharing, automated notifications, and streamlined
+                    <strong> enterprise communication workflows</strong>.
+                </p>
+            ),
+            tech: [
+                "react.js",
+                "typescript",
+                "microsoft graph api",
+                "onedrive",
+                "sharepoint",
+                "rest api",
+                "workflow automation",
+                "pdf processing",
+                "azure devops",
+                "git"
+            ]
+        },
+
+        {
+            title: (
+                <>
+                    <span className="text-[#E81F76]">CRM</span>
+                    <span className="text-black dark:text-white">Next</span>
+                </>
+            ),
+            subtitle: (
+                <>
+                    <span className="text-black dark:text-white">
+                        BANKING & FINANCIAL
+                    </span>{" "}
+                    <span className="text-[#E81F76]">SERVICES</span>{" "}
+                    <span className="text-black dark:text-white">
+                        CRM
+                    </span>
+                </>
+            ),
+            image: Project2,
+            url: "https://www.businessnext.com/crm",
+            color: "",
+            shadow: "drop-shadow-[0_0px_60px_#E81F76]",
+            tooltipBg: "bg-[#CBDA00]",
+            description: (
+                <p className='text-justify mt-2 text-gray-700 dark:text-gray-300'>
+                    Contributed to the development of <strong>CRMNEXT</strong>, a cloud-native
+                    CRM platform designed for banking and financial institutions. Built
+                    scalable and reusable frontend components using
+                    <strong> React.js, TypeScript, and XML creation</strong>, delivering
+                    responsive and high-performance user experiences across enterprise
+                    applications. Integrated REST APIs and AI-powered capabilities to
+                    streamline customer interactions and automate business workflows.
+                    Developed and enhanced key modules including
+                    <strong> Widget Designer</strong>, <strong>Layout Designer</strong>, and
+                    workflow-driven applications. Collaborated with cross-functional teams
+                    in an Agile environment to improve application performance,
+                    maintainability, and scalability while delivering enterprise-grade
+                    solutions for leading banking and financial organizations. </p>
+            ),
+            tech: [
+                "react.js",
+                "typescript",
+                "javascript",
+                "redux toolkit",
+                "next.js",
+                "tailwind css",
+                "rest api",
+                "jest",
+                "git",
+                "azure devops"
+            ]
+        },
+
+        {
+            title: (
+                <>
+                    <span className="text-[#0B1E59] dark:text-[#DC2626]">ClevDoc</span>{" "}
+                    <span className="text-[#0B1E59] dark:text-white">Banking</span>
+                </>
+            ),
+            subtitle: (
+                <>
+                    <span className="text-black dark:text-white">BANKING</span>{" "}
+                    <span className="text-[#0B1E59] dark:text-[#DC2626]">LOAN</span>{" "}
+                    <span className="text-black dark:text-white">MANAGEMENT</span>
+                </>
+            ),
             image: Project1,
             url: "https://clevdoc.com/",
             color: "#0B1E59",
@@ -28,8 +142,19 @@ const Projects = () => {
         },
 
         {
-            title: "Banking CMS",
-            subtitle: "Banking Content Management System",
+            title: (
+                <>
+                    <span className="text-[#0B1E59] dark:text-[#DC2626]">Banking</span>{" "}
+                    <span className="text-[#0B1E59] dark:text-white">CMS</span>
+                </>
+            ),            
+            subtitle: (
+                <>
+                    <span className="text-black dark:text-white">BANKING CONTENT</span>{" "}
+                    <span className="text-[#0B1E59] dark:text-[#DC2626]">MANAGEMENT</span>{" "}
+                    <span className="text-black dark:text-white">SYSTEM</span>
+                </>
+            ),
             image: Project2,
             url: "https://cms.clevdoc.com/",
             color: "#0B1E59",
@@ -66,8 +191,19 @@ const Projects = () => {
         },
 
         {
-            title: "HitWeb",
-            subtitle: "IT Consultancy and Services Startup",
+            title: (
+                <>
+                    <span className="text-[#4BD857]">Hit</span>
+                    <span className="text-black dark:text-white">Web</span>
+                </>
+            ),     
+            subtitle: (
+                <>
+                    <span className="text-black dark:text-white">IT CONSULTANCY</span>{" "}
+                    <span className="text-[#4BD857]">AND SERVICES</span>{" "}
+                    <span className="text-black dark:text-white">STARTUP</span>
+                </>
+            ),
             image: Project4,
             url: "#",
             color: "rgba(16,16,16,1)",

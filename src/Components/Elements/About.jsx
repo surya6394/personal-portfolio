@@ -164,9 +164,40 @@ const About = () => {
                 <li className="text-orgClr text-[20px]">
                   <span className="text-gray-600 text-[16px] dark:text-gray-300">MySQL</span>
                 </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">
+                    REST APIs
+                  </span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">
+                    Microsoft Graph API
+                  </span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">
+                    Micro Frontends
+                  </span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">
+                    Design Patterns
+                  </span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">
+                    System Design (HLD & LLD)
+                  </span>
+                </li>
+                <li className="text-orgClr text-[20px]">
+                  <span className="text-gray-600 text-[16px] dark:text-gray-300">
+                    Data Structures & Algorithms
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
+
 
           <div className="mt-7">
             <div className="border-[1px] border-gray-200 rounded-md p-5 shadow space-y-2">
