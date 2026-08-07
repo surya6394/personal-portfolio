@@ -17,7 +17,7 @@ const Projects = () => {
             shadow: "drop-shadow-[0_0px_60px_#0B1E59]",
             tooltipBg: "bg-[#0B1E59]",
             description: (
-                <p className='text-justify mt-2 text-gray-700 dark:dark:text-gray-300'>
+                <p className='text-justify mt-2 text-gray-700 dark:text-gray-300'>
                     Architected the Clevdoc <span className='font-semibold'>Banking Platform</span>, a responsive <span className='font-semibold'>loan recovery solution</span> that enhances communication between banks and borrowers, ensuring a seamless user experience and streamlined <span className='font-semibold'>financial workflows</span>. Developed a robust <span className='font-semibold'>Banking CMS</span> to manage data efficiently, improving operational integrity and performance. Integrated a secure <span className='font-semibold'>payment gateway</span> for smooth and hassle-free transactions, and implemented real-time <span className='font-semibold'>push notifications</span> using Firebase to keep users instantly informed of critical updates.
                 </p>
             ),
@@ -36,7 +36,7 @@ const Projects = () => {
             shadow: "drop-shadow-[0_0px_60px_#0B1E59]",
             tooltipBg: "bg-[#0B1E59]",
             description: (
-                <p className='text-justify text-gray-700 dark:dark:text-gray-300 mt-2'>
+                <p className='text-justify text-gray-700 dark:text-gray-300 mt-2'>
                     Designed and developed a comprehensive <span className='font-semibold'>Banking CMS</span> to <span className='font-semibold'>streamline</span> data management for <span className='font-semibold'>loan recovery operations</span>. The <span className='font-semibold'>CMS</span> enhanced operational efficiency by providing a structured, intuitive interface for <span className='font-semibold'>ClevDoc to manage</span> bank and borrower information, <span className='font-semibold'>payment statuses</span>, loan management, <span className='font-semibold'>bank user management</span> and recovery workflows. Integrated secure access controls and real-time <span className='font-semibold'>Firebase notifications</span> for critical updates. Ensured data integrity and <span className='font-semibold'>smooth backend communication</span> through Redux Toolkit.
                 </p>
             ),
@@ -55,7 +55,7 @@ const Projects = () => {
             shadow: "drop-shadow-[0_0px_60px_#6ddb54]",
             tooltipBg: "bg-[#6ddb54]",
             description: (
-                <p className='text-justify text-gray-700 dark:dark:text-gray-300 mt-2'>
+                <p className='text-justify text-gray-700 dark:text-gray-300 mt-2'>
                     VoiceKit is an <span className='font-semibold'>ML-powered tool</span> that analyzes emotions in recorded <span className='font-semibold'>audio conversations</span> to help businesses <span className='font-semibold'>evaluate client interactions</span>. It features emotion detection, <span className='font-semibold'>visual insights</span> via bar and donut charts, and <span className='font-semibold'>PDF reporting</span> for stakeholders. The platform empowers organizations to improve communication strategies, <span className='font-semibold'>boost client engagement</span>, and drive informed decisions.
                 </p>
             ),
@@ -74,7 +74,7 @@ const Projects = () => {
             shadow: "drop-shadow-[0_0px_60px_rgba(16,16,16,1)]",
             tooltipBg: "bg-[rgba(16,16,16,1)]",
             description: (
-                <p className='text-justify text-gray-700 dark:dark:text-gray-300 mt-2'>
+                <p className='text-justify text-gray-700 dark:text-gray-300 mt-2'>
                     Being a <span className='font-semibold'>lead developer</span>, revamped the site to a <span className='font-semibold'>highly
                         responsive</span>, and interactive website. Created new features and
                     pages. Worked as a team with other team member and <span className='font-semibold'>ux
@@ -96,7 +96,7 @@ const Projects = () => {
             shadow: "drop-shadow-[0_0px_60px_#3b82f6]",
             tooltipBg: "bg-blue-500",
             description: (
-                <p className='text-justify text-gray-700 dark:dark:text-gray-300 mt-2'>
+                <p className='text-justify text-gray-700 dark:text-gray-300 mt-2'>
                     Developed a <span className='font-semibold'>full-fledged software development</span> platform
                     focusing on <span className='font-semibold'>user needs and efficiency</span>. Built the complete site
                     from scratch.
