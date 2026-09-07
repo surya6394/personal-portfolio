@@ -25,7 +25,7 @@ const Projects = () => {
                 </>
             ),
             image: Project1,
-            url: "https://clevdoc.com/",
+            url: "https://www.businessnext.com/headless",
             color: "",
             shadow: "drop-shadow-[0_0px_60px_#E81F76]",
             tooltipBg: "bg-[#CBDA00]",
